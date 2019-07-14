@@ -59,7 +59,7 @@ def construct_y_bus_data(name, bus_csv_path=None, branch_csv_path=None,
 
     # Branch elements incorporation on branch_data_case
     for i in range(len(branch_data)):  # For ith element
-        # Type of element. 0:transmissión line - 1,2,3:transformer
+        # Type of element. 0:transmission line - 1,2,3:transformer
         type_i = branch_data['type'][i]
 
         # tap_bus; bus_number from one of the buses between the ith element

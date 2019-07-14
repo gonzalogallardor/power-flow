@@ -227,7 +227,7 @@ class BaseController(ArgparseController):
         print('\n---Bus Solution---')
         print('\tcol1: bus_number'
               '\n\tcol2: v[p.u.]'
-              '\n\tcol3: delta[º]'
+              '\n\tcol3: delta[deg]'
               '\n\tcol4: base_voltage[kv]'
               '\n\tcol5: p_calc[p.u.]'
               '\n\tcol6: q_calc[p.u.]\n')
